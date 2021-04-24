@@ -1,14 +1,8 @@
-![1 a i](https://user-images.githubusercontent.com/10243139/115963077-17acdb80-a516-11eb-940a-da2d5e770db2.jpg)
-
-
 <!-- Step 1 — Installing Apache and Updating the Firewall -->
 
 <!-- a) Install Apache using Ubuntu’s package manager ‘apt’ -->
-	i)	sudo apt update
-	
-	![1 a i](https://user-images.githubusercontent.com/10243139/115963052-01068480-a516-11eb-88d3-1fa3c1ed6d46.jpg)
-
-	ii)	sudo apt install apache2
+		sudo apt update ![1 a i](https://user-images.githubusercontent.com/10243139/115963235-71ada100-a516-11eb-8bea-99a5447c1f3e.jpg)
+		sudo apt install apache2
 
 b) To verify that apache2 is running as a Service in our OS, use following command
 	sudo systemctl status apache2
@@ -16,7 +10,7 @@ b) To verify that apache2 is running as a Service in our OS, use following comma
 c) Open inbound port 80
 	i)	Go to Instances - Security Groups - Edit Inbound Rules - Add rule
 	   	Add type - HTTP
-	   	Add Custom ip address block - 0.0.0.0/0
+Add Custom ip address block - 0.0.0.0/0
 	ii)	Test rule in Ubuntu Shell, run: 
 		curl http://localhost:80
 			or
