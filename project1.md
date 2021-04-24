@@ -27,14 +27,16 @@ Add Custom ip address block - 0.0.0.0/0
 Test rule in Ubuntu Shell, run: 
 
 - [ ] curl http://localhost:80
-		or
+		
+	or
+	
 - [ ] curl http://127.0.0.1:80
 		
 ![1 c ii](https://user-images.githubusercontent.com/10243139/115964584-1d59ef80-a51d-11eb-9511-dfff4380e923.jpg)
 
 d) Test Apache HTTP Server
 
-- [ ] http://<Public-IP-Address>:80
+http://<Public-IP-Address>:80
 	
 ![1 d i](https://user-images.githubusercontent.com/10243139/115964674-82ade080-a51d-11eb-9971-8fe6d5eb4a65.jpg)
 
