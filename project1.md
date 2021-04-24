@@ -1,3 +1,4 @@
+![1 a i](https://user-images.githubusercontent.com/10243139/115963235-71ada100-a516-11eb-8bea-99a5447c1f3e.jpg)
 <!-- Step 1 — Installing Apache and Updating the Firewall -->
 
 <!-- a) Install Apache using Ubuntu’s package manager ‘apt’ -->
