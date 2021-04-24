@@ -2,11 +2,11 @@ Step 1 — Installing Apache and Updating the Firewall
 
 a) Install Apache using Ubuntu’s package manager ‘apt’
 
-- [x] sudo apt update 
+- [ ] sudo apt update 
 
 ![1 a i](https://user-images.githubusercontent.com/10243139/115963443-33fd4800-a517-11eb-88ce-f8d4e19d8b34.jpg)
 
-- [x] sudo apt install apache2
+- [ ] sudo apt install apache2
 
 ![1 a ii](https://user-images.githubusercontent.com/10243139/115963600-ea612d00-a517-11eb-8847-b060bc852ff0.jpg)
 
