@@ -36,7 +36,7 @@ Test rule in Ubuntu Shell, run:
 
 d) Test Apache HTTP Server
 
-http://Public-IP-Address:80
+http://{Your-Public-IP-Address}:80
 	
 ![1 d i](https://user-images.githubusercontent.com/10243139/115964674-82ade080-a51d-11eb-9971-8fe6d5eb4a65.jpg)
 
