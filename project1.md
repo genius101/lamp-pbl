@@ -1,7 +1,13 @@
-Step 1 — Installing Apache and Updating the Firewall
+![1 a i](https://user-images.githubusercontent.com/10243139/115963077-17acdb80-a516-11eb-940a-da2d5e770db2.jpg)
 
-a) Install Apache using Ubuntu’s package manager ‘apt’
+
+<!-- Step 1 — Installing Apache and Updating the Firewall -->
+
+<!-- a) Install Apache using Ubuntu’s package manager ‘apt’ -->
 	i)	sudo apt update
+	
+	![1 a i](https://user-images.githubusercontent.com/10243139/115963052-01068480-a516-11eb-88d3-1fa3c1ed6d46.jpg)
+
 	ii)	sudo apt install apache2
 
 b) To verify that apache2 is running as a Service in our OS, use following command
