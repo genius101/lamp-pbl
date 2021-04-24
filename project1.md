@@ -10,14 +10,13 @@ a) Install Apache using Ubuntu’s package manager ‘apt’
 
 ![1 a ii](https://user-images.githubusercontent.com/10243139/115963600-ea612d00-a517-11eb-8847-b060bc852ff0.jpg)
 
-
 b) To verify that apache2 is running as a Service in our OS, use following command
 	
 - [ ] sudo systemctl status apache2
 
 ![1 b](https://user-images.githubusercontent.com/10243139/115963706-7bd09f00-a518-11eb-87e5-66abf48f01e0.jpg)
 
-c) Open inbound port 80
+ Open inbound port 80
 
 Go to Instances - Security Groups - Edit Inbound Rules - Add rule
 	   	Add type - HTTP
@@ -25,26 +24,40 @@ Add Custom ip address block - 0.0.0.0/0
 
 ![1 c i](https://user-images.githubusercontent.com/10243139/115963761-af132e00-a518-11eb-9bd1-799cef78e2a0.jpg)
 
-ii)	Test rule in Ubuntu Shell, run: 
-		curl http://localhost:80
-			or
-		curl http://127.0.0.1:80
+Test rule in Ubuntu Shell, run: 
+	- [ ] curl http://localhost:80
+		or
+	- [ ] curl http://127.0.0.1:80
+		
+![1 c ii](https://user-images.githubusercontent.com/10243139/115964584-1d59ef80-a51d-11eb-9511-dfff4380e923.jpg)
 
 d) Test Apache HTTP Server
-	i)	http://<Public-IP-Address>:80
+
+- [ ] http://<Public-IP-Address>:80
+	
+![1 d i](https://user-images.githubusercontent.com/10243139/115964674-82ade080-a51d-11eb-9971-8fe6d5eb4a65.jpg)
 
 
 Step 2 — Installing MySQL
 
+
 a) Use ‘apt’ to acquire and install mysql-server
-	i)	sudo apt install mysql-server
-	ii)	Run security script that comes pre-installed with MySQL. This script will remove some insecure default settings and 		lock down access to your database system
-		VALIDATE PASSWORD COMPONENT - Y
-		Level of Password I choose 0 for LOW
-		Enter a secure password and confirm password
-		Every other step was Y or or y Yes
-		Reload priviledge tables - Y
-		Success. All done!
+
+- [ ] sudo apt install mysql-server
+
+![2 a i](https://user-images.githubusercontent.com/10243139/115964804-0bc51780-a51e-11eb-981e-ad4896d6c34f.jpg)
+
+Run security script that comes pre-installed with MySQL. This script will remove some insecure default settings and lock down access to your database system
+
+- [ ] VALIDATE PASSWORD COMPONENT - Y
+- [ ] Level of Password I choose 0 for LOW
+- [ ] Enter a secure password and confirm password
+- [ ] Every other step was Y or or y Yes
+- [ ] Reload priviledge tables - Y
+- [ ] Success. All done!
+
+![2 a ii](https://user-images.githubusercontent.com/10243139/115964847-40d16a00-a51e-11eb-872a-9f16fec604e5.jpg)
+
 
 b) Log in to the MySQL console and Exit back to Ubuntu Console
 	i)	sudo mysql	
