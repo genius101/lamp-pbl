@@ -12,13 +12,20 @@ a) Install Apache using Ubuntu’s package manager ‘apt’
 
 
 b) To verify that apache2 is running as a Service in our OS, use following command
-	sudo systemctl status apache2
+	
+- [ ] sudo systemctl status apache2
+
+![1 b](https://user-images.githubusercontent.com/10243139/115963706-7bd09f00-a518-11eb-87e5-66abf48f01e0.jpg)
 
 c) Open inbound port 80
-	i)	Go to Instances - Security Groups - Edit Inbound Rules - Add rule
+
+Go to Instances - Security Groups - Edit Inbound Rules - Add rule
 	   	Add type - HTTP
 Add Custom ip address block - 0.0.0.0/0
-	ii)	Test rule in Ubuntu Shell, run: 
+
+![1 c i](https://user-images.githubusercontent.com/10243139/115963761-af132e00-a518-11eb-9bd1-799cef78e2a0.jpg)
+
+ii)	Test rule in Ubuntu Shell, run: 
 		curl http://localhost:80
 			or
 		curl http://127.0.0.1:80
