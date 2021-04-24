@@ -146,7 +146,7 @@ i)	Create an empty html file and and input into it with echo:
 		- [ ] sudo echo 'Hello LAMP from hostname' $(curl -s http://169.254.169.254/latest/meta-data/public-hostname) 'with public IP' $(curl -s 						http://169.254.169.254/latest/meta-data/public-ipv4) > /var/www/projectesla/index.html
 		
 ii)	Go to your browser and type the URL:
-		- [ ] http://<Public-IP-Address>:80
+		http://{Your-Public-IP-Address}:80
 
 ![4 d](https://user-images.githubusercontent.com/10243139/115966514-d290a580-a525-11eb-9eea-e09c4ba6a3be.jpg)
 
