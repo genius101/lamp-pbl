@@ -25,9 +25,10 @@ Add Custom ip address block - 0.0.0.0/0
 ![1 c i](https://user-images.githubusercontent.com/10243139/115963761-af132e00-a518-11eb-9bd1-799cef78e2a0.jpg)
 
 Test rule in Ubuntu Shell, run: 
-	- [ ] curl http://localhost:80
+
+- [ ] curl http://localhost:80
 		or
-	- [ ] curl http://127.0.0.1:80
+- [ ] curl http://127.0.0.1:80
 		
 ![1 c ii](https://user-images.githubusercontent.com/10243139/115964584-1d59ef80-a51d-11eb-9511-dfff4380e923.jpg)
 
@@ -60,6 +61,7 @@ Run security script that comes pre-installed with MySQL. This script will remove
 
 
 b) Log in to the MySQL console and Exit back to Ubuntu Console
+
 - [ ] sudo mysql	
 
 ![2 b i](https://user-images.githubusercontent.com/10243139/115966070-f652ec00-a523-11eb-8a0a-7a60f3fee847.jpg)
