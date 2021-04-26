@@ -1,3 +1,5 @@
+ LAMP (Linux - Apache - MySQL - Python) Project 
+
 Step 1 — Installing Apache and Updating the Firewall
 
 a) Install Apache using Ubuntu’s package manager ‘apt’
