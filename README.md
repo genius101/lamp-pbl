@@ -22,4 +22,4 @@
 
 ![5 d](https://user-images.githubusercontent.com/10243139/178481728-00b8d793-9765-4b7a-8d91-ba3fb0b4c992.jpg)
 
-### Full Details can be found on https://github.com/genius101/lamp-pbl/blob/main/project1.md
+### Full Configuration Details can be found on https://github.com/genius101/lamp-pbl/blob/main/project1.md
