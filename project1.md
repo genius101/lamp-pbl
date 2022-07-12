@@ -1,4 +1,4 @@
- LAMP (Linux - Apache - MySQL - Python) Project 
+ LAMP (Linux - Apache - MySQL - PHP) Project 
 
 Step 1 — Installing Apache and Updating the Firewall
 
